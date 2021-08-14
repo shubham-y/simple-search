@@ -1,2 +1,2 @@
 # Simple Search
-## Simple Search Engine using Elasticsearch PHP Client
+Simple Search Engine using Elasticsearch PHP Client
