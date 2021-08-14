@@ -1,0 +1,39 @@
+form{
+    border: 1px solid black;
+    /* border-radius: 5%; */
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+form label{
+    margin: 5px;
+    align-items: center;
+}
+
+.box label input, .box label textarea, .box label select{
+    margin: 5px;
+    width: 170px;
+}
+
+.values{
+    display: flex;
+    align-items: flex-start;
+}
+
+.dropdown-menu{
+    width: inherit !important;
+    margin-left:25px !important;
+    max-height:60vh !important;
+    overflow-y:scroll !important;
+    padding:6px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.res{
+    width: fit-content; 
+    margin:0 auto; 
+    display:none;
+}
