@@ -19,7 +19,7 @@ if (isset($_GET['q'])) {
     $query = $client->search([
         'body' => [
             "query" => [
-                "multi_matchh" => [
+                "multi_match" => [
                     "fields" => [
                         "model", "brand", "OS"
                     ],
